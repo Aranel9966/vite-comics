@@ -9,7 +9,7 @@ export default{
 }
 </script>
 
-<template>
+<template>    
     <nav>
       <div class="logo">
         <img src="/img/favicon.ico" alt="">
@@ -20,6 +20,9 @@ export default{
         </ul>
       </div>
     </nav>
+    <div class="container">
+    --Content goes here --
+    </div>
 </template>
 
 <style lang="scss" >
@@ -57,5 +60,14 @@ export default{
             }
         }
     }
-
+    .container{
+        color: white;
+        height: 80px;
+        background-color: #1c1c1c;
+        display: flex;
+        align-items: center;
+        padding-left: 120px;
+        font-size: x-large;
+        font-weight: bold;
+    }
 </style>
