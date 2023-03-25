@@ -53,8 +53,8 @@ export default{
 
                 &:hover {
                 cursor: pointer;
-                color: blue;
-                border-bottom-color: blue;
+                color: #0282f9;
+                border-bottom-color: #0282f9;
                 }
             }
             }

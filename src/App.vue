@@ -13,17 +13,19 @@
 
 <template>
   <header> 
-    <!-- header  -->
+    <!-- header -->
     <AppHeader/>
   </header>
   <main>
+    <!-- main -->
     <AppMain/>
   </main>
   <footer>
+    <!-- footer -->
     <AppFooter/>
   </footer>
 </template>
 
 <style lang="scss">
-
+  
 </style>
