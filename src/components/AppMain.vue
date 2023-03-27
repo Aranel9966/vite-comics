@@ -33,10 +33,10 @@ export default{
 <template>
   <div class="menuContainer">
     <ul>
-        <li v-for="otionMenu in menuMain">
-            <img :src="otionMenu.icon" alt="">
+        <li v-for="options in menuMain">
+            <img :src="options.icon" alt="">
             
-            {{ otionMenu.name }}
+            {{ options.name }}
         </li>
     </ul>
     
