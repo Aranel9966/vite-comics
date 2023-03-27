@@ -22,8 +22,6 @@ export default{
     .card{
         height: 150px;
         width: 150px;  
-        &:hover{
-
-        }
+        
     }
 </style>
