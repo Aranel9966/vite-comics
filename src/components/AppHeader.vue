@@ -153,6 +153,7 @@ export default{
       padding: 40px 20px;
       color: white;
         button{
+          
           background-color: #0282f9;
           color: white;
           padding: 15px;
@@ -170,7 +171,8 @@ export default{
       color: white;
       top: -20px;
       left: 470px;
-      width: 320px;
+      width: 280px;
+      padding: 5px;
       position: relative;
 
     }

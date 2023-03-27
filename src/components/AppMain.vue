@@ -60,10 +60,14 @@ export default{
         li{
             display: flex;
             align-items: center;
-            gap: 10px;
+            gap: 20px;
             img{
                 width: 40px;
                 height: 50px;
+            }
+            &:hover{
+                cursor: pointer;
+                transform: scale(1.3);
             }
         }
     }

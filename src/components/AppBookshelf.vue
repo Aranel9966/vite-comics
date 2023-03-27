@@ -34,6 +34,7 @@ export default{
             height: 200px;
         };
         &:hover {
+            cursor: pointer;
             transform: scale(1.3);
             .style-price {
                 display: block;
