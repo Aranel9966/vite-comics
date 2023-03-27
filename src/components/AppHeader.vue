@@ -98,8 +98,10 @@ export default{
       </div>
     </nav>
     <div id="jumbotron"></div>
+    <h1>CURRENT SERIES</h1>
     <div class="container">
-      <AppBookshelf v-for="card in comics" :img="card.thumb" :name="card.series"></AppBookshelf>
+      <AppBookshelf v-for="card in comics" :price="card.price" :img="card.thumb" :name="card.series"></AppBookshelf>
+      <button>LOAD MORE</button>
     </div>
 </template>
 
@@ -150,11 +152,27 @@ export default{
       margin: 0 auto;
       padding: 40px 20px;
       color: white;
-
+        button{
+          background-color: #0282f9;
+          color: white;
+          padding: 15px;
+          width: 220px;
+          margin: 50px
+        }
     };
     #jumbotron{
       background-image: url('../../public/img/jumbotron.jpg');
       height: 400px;
+
     };
+    h1{
+      background-color: #0282f9;
+      color: white;
+      top: -20px;
+      left: 470px;
+      width: 320px;
+      position: relative;
+
+    }
     
 </style>
