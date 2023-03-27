@@ -20,8 +20,15 @@ export default{
 </template>
 <style lang="scss" scoped>
     .card{
-        height: 150px;
+        height: 270px;
         width: 150px;  
-        
+        margin: 5px;
+        img{
+            width: 150px;
+            height: 200px;
+        }
+        &:hover{
+            transform: scale(1.3);
+        }
     }
 </style>

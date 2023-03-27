@@ -86,7 +86,7 @@
         background-repeat: no-repeat;
         background-size: cover;
         .containerRight{
-            height: 100%;
+            // height: 100%;
             width: 480px;
             background-image:url('../../public/img/dc-logo-bg.png');
             background-repeat: no-repeat;
