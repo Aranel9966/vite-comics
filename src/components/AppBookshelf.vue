@@ -8,8 +8,7 @@ export default{
         props:{
             img:String,
             name:String,      
-            price:Number,
-
+            price:String,
         }
     }
 </script>
@@ -32,17 +31,18 @@ export default{
         img{
             width: 150px;
             height: 200px;
+            object-fit: cover
         };
         &:hover {
             cursor: pointer;
-            transform: scale(1.3);
+            transform: scale(1.2);
             .style-price {
                 display: block;
                 color: greenyellow;
             }
         }
         .opacity:hover {
-            opacity: 0.4;
+            opacity: 0.3;
             };
     }
     .style-price{
@@ -53,4 +53,5 @@ export default{
             transform:translate(-50%,-50%) ;
           
         };
+    
 </style>

@@ -116,7 +116,6 @@ export default{
             display: flex;
             align-items: center;
             img{
-
               height: 60px;
             }
         };
@@ -128,11 +127,12 @@ export default{
             ul {
             display: flex;
             flex-direction: row;
+            gap: 20px;
 
             li {
                 font-size: small;
                 font-weight: bold;
-                padding: 40px;
+                padding:  40px 0px;
                 border-bottom: 3px solid transparent;
 
                 &:hover {
@@ -150,7 +150,7 @@ export default{
       justify-content: center;
       width: 1000px;
       margin: 0 auto;
-      padding: 40px 20px;
+      padding: 50px 20px;
       color: white;
         button{
           
@@ -170,7 +170,7 @@ export default{
       background-color: #0282f9;
       color: white;
       top: -20px;
-      left: 470px;
+      left: 20%;
       width: 280px;
       padding: 5px;
       position: relative;
